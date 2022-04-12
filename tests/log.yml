@@ -1,0 +1,67 @@
+logs:
+    - name: root
+      level: info
+      formatter: '%d%T%m%n'
+      appenders:
+          - type: FileLogAppender
+            file: /home/lucky/WebServer/root.txt
+          - type: StdoutLogAppender
+    - name: system
+      level: info
+      formatter: '%d%T%m%n'
+      appenders:
+          - type: FileLogAppender
+            file: /home/lucky/WebServer/system.txt
+            formatter: '%d%T---%m%n'
+          - type: StdoutLogAppender
+
+system:
+    port: 9900
+    value: 15
+    int_vec:
+        - 10
+        - 20
+    int_list: [20, 40, 50]
+    int_set: [20, 60, 40, 20]
+    int_uset: [20, 60, 40, 20]
+    str_int_map:
+        k: 10
+        k1: 20
+        k2: 30
+    str_int_umap:
+        k: 110
+        k1: 120
+        k2: 130
+    str_int_vec_umap:
+        x: [10, 20, 30]
+        k: [40, 50, 60]
+
+class:
+    preson:
+        name: y1
+        age: 10
+        sex: true
+    map:
+        m1:
+            name: y1
+            age: 20
+            sex: true
+        m2:
+            name: y2
+            age: 25
+            sex: false
+    vec_map:
+        m1:
+            - name: y11
+              age: 21
+              sex: true
+            - name: y12
+              age: 22
+              sex: false
+        m2:
+            - name: y21
+              age: 31
+              sex: true
+            - name: y22
+              age: 32
+              sex: false

@@ -1,0 +1,20 @@
+2022-01-29 13:00:58	---This is system log after load
+
+2022-01-29 13:02:37	---This is system log after load
+
+2022-01-29 13:02:54	---This is system log after load
+
+2022-01-29 13:02:54	 haha 	This is system log after setFormatter
+
+2022-01-29 13:03:20	---This is system log after load
+
+2022-01-29 13:03:20	 ## 	This is system log after setFormatter
+
+2022-01-29 13:06:08	---This is system log after load
+
+2022-01-29 13:06:08	 ## 	This is system log after setFormatter
+
+2022-01-29 13:07:59	---This is system log after load
+
+2022-01-29 13:07:59	 ## 	This is system log after setFormatter
+
